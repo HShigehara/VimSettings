@@ -4,8 +4,8 @@ set nocompatible
 filetype off
 
 if has('vim_starting')
-	set runtimepath+=~/vimsettings/.vim/bundle/neobundle.vim
-	call neobundle#begin(expand('~/vimsettings/.vim/bundle/'))
+	set runtimepath+=/home/shige/vimsettings/.vim/bundle/neobundle.vim
+	call neobundle#begin(expand('/home/shige/vimsettings/.vim/bundle/'))
 endif
 
 NeoBundle 'Shougo/neobundle.vim'
