@@ -12,6 +12,6 @@
 1. **$vim**
 1. **$gvim**
 
-##When You Enter the ":NeoBundleInstall", Running Install. 
+##When You Enter the ":NeoBundleInstall", Installing Plugin. 
 
 ###Quote : http://qiita.com/muran001/items/3080c4816b7c2e65e40b
