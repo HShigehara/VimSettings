@@ -6,12 +6,14 @@ git clone https://github.com/HShigehara/VimSettings.git
 ```
 ---
 #[Auto Setting]
-`sh ~/vimsettings/settingScript.sh`
+`sh ~/VimSettings/settingScript.sh`
 ---
 #[Manual Setting]
 ##1. Remove VimSettings/.vim/bundle. Recreate bundle Directory and Clone NeoBundle.
 ```
 cd ~
+rm ~/.vimrc
+rm ~/.gvimrc
 rm -rf ~/VimSettings/.vim/bundle
 mkdir ~/VimSettings/.vim/bundle
 git clone git://github.com/Shougo/neobundle.vim ~/VimSettings/.vim/bundle/neobundle.vim
