@@ -2,25 +2,25 @@
 ##1. Clone to Home Directory.
 ```
 cd ~
-git clone https://HShigehara@bitbucket.org/HShigehara/vimsettings.git
+git clone https://github.com/HShigehara/VimSettings.git
 ```
 ---
 #[Auto Setting]
 `sh ~/vimsettings/settingScript.sh`
 ---
 #[Manual Setting]
-##1. Remove vimsettings/.vim/bundle. Recreate bundle Directory and Clone NeoBundle.
+##1. Remove VimSettings/.vim/bundle. Recreate bundle Directory and Clone NeoBundle.
 ```
 cd ~
-rm -rf ~/vimsettings/.vim/bundle
-mkdir ~/vimsettings/.vim/bundle
+rm -rf ~/VimSettings/.vim/bundle
+mkdir ~/VimSettings/.vim/bundle
 git clone git://github.com/Shougo/neobundle.vim ~/vimsettings/.vim/bundle/neobundle.vim
 ```
 ##2. Please Create a Symbolic Link of ".vimrc" and ".gvimrc" to Home Directory.
 ```
 cd ~
-ln -s ~/vimsettings/.vim/.vimrc ~/.vimrc
-ln -s ~/vimsettings/.vim/.gvimrc ~/.gvimrc
+ln -s ~/VimSettings/.vim/.vimrc ~/.vimrc
+ln -s ~/VimSettings/.vim/.gvimrc ~/.gvimrc
 ```
 ---
 #[Please Start the vim or Gvim.]
