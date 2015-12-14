@@ -1,4 +1,6 @@
 cd ~;
+rm ~/.vimrc;
+rm ~/.gvimrc;
 rm -rf ~/VimSettings/.vim/bundle;
 mkdir ~/VimSettings/.vim/bundle;
 git clone git://github.com/Shougo/neobundle.vim ~/vimsettings/.vim/bundle/neobundle.vim;
